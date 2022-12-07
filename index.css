@@ -1,0 +1,191 @@
+.sideBar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sideBar div{
+    padding: 8px 8px 8px 30px;
+    font-size: 24px;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sideBar .closeBtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.main {
+    transition: margin-left .5s;
+    padding-top: 10%;
+    padding-right: 20%;
+    padding-bottom: 30%;
+    padding-left: 30%;
+}
+.header{
+    margin-top: 50px
+}
+
+.closeBtn{
+    border-radius: 12px;
+    background-color: #38c3dc; 
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.aboutMe{
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(0, 0, 0);
+}
+.experience{
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(0, 0, 0);
+}
+.contact{
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(0, 0, 0);
+}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+span button{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Zen Dots', cursive;
+  margin-top: 50px;
+}
+span button:before,
+span button:after{
+  position: absolute;
+  content: "Click Me";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+span button:before{
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+span button:after{
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+span button:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+  
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .media {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .media::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .media {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .media {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .media,
+  .wrapper .facebook:hover .media::before {
+    background: #1877F2;
+    color: #ffffff;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .media,
+  .wrapper .twitter:hover .media::before {
+    background: #1DA1F2;
+    color: #ffffff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .media,
+  .wrapper .instagram:hover .media::before {
+    background: #e045af;
+    color: #ffffff;
+  }
+  
+  .wrapper .github:hover,
+  .wrapper .github:hover .media,
+  .wrapper .github:hover .media::before {
+    background: #333333;
+    color: #ffffff;
+  }
+  
+

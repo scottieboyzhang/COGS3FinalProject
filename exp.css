@@ -1,0 +1,80 @@
+.research{
+    position: absolute;
+    top: 80px;
+    left: 5%;
+    width: 600px;
+    height: 70px;
+    border: 6px solid #000000;
+    text-align: center;
+    font-family: 'Kenia', cursive;
+    background-color: #7e7e7e;
+}
+.lineaerimage{
+    position: absolute;
+    top: 80px;
+    right: 5%;
+    width: 40%;   
+}
+.lineaerimage:hover {
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+    transform: rotate(20deg);
+  }
+  .collegeleapimage{
+    position: absolute;
+    top: 680px;
+    left: 5%;
+    width: 40%;   
+  }
+  .collegeleapimage:hover {
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+  }
+
+.activity{
+    position: absolute;
+    top: 680px;
+    right: 5%;
+    width: 600px;
+    height: 70px;
+    border: 6px solid #000000;
+    text-align: center;
+    font-family: 'Kenia', cursive;
+    background-color: #7e7e7e;
+}
+.amongsus{
+    position: absolute;
+    top: 1280px;
+    right: 5%;
+    width: 45%;  
+}
+.amongsus:hover {
+    -ms-transform: skewY(25deg); 
+    -webkit-transform: skewY(25deg); 
+    transform: skewY(25deg); 
+  }
+
+.project{
+    position: absolute;
+    top: 1280px;
+    left: 5%;
+    width: 600px;
+    height: 70px;
+    border: 6px solid #000000;
+    text-align: center;
+    font-family: 'Kenia', cursive;
+    background-color: #7e7e7e;
+}
+
+p{
+    font-size: 30px;
+}
+li{
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kenia&family=Roboto+Condensed&display=swap');

@@ -12,8 +12,8 @@
 .lineaerimage{
     position: absolute;
     top: 80px;
-    right: 5%;
-    width: 40%;   
+    right: 11%;
+    width: 35%;   
 }
 .lineaerimage:hover {
     -ms-transform: scale(1.2); 

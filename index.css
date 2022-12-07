@@ -95,10 +95,47 @@ span button:hover{
   transform: translateZ(-25px) rotateX(-90deg);
 }
 
+.header{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    -moz-animation:slide 3s 1;
+    -ms-animation:slide 3s 1;
+    -o-animation:slide 3s 1;
+    -webkit-animation:slide 3s 1;
+    animation:slide 3s 1;
+    border-bottom:1px solid #FFF;
+    margin:0 auto;
+    max-width:50%;
+    padding:4em 0 2em;
+    text-align:center;
+}
+
+@keyframes slide {
+    from {
+        -webkit-transform:translate3d(0,-100%,0);
+        transform:translate3d(0,-100%,0);
+        opacity:0;     
+    }
+    to {
+        -webkit-transform:none;
+        transform:none;
+        opacity:1;
+    }
+}
+
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Diplomata+SC&family=Kenia&family=Roboto+Condensed&display=swap');
 
-  
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction:column;
+    justify-content:space-around;
+    gap: 30px;
+  }
 .wrapper {
     display: inline-flex;
     list-style: none;
@@ -188,4 +225,7 @@ span button:hover{
     color: #ffffff;
   }
   
+  .fa-brands{
+    font-size:30px;
+  }
 

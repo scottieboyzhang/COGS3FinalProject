@@ -1,3 +1,3 @@
 # COGS3FinalProject
 
-Pages:
+Pages:https://scottieboyzhang.github.io/COGS3FinalProject/
